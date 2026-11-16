@@ -329,6 +329,20 @@ function initVerticalCarousel(containerSelector, itemSelector) {
 
   container.addEventListener('scroll', scheduleUpdate, { passive: true });
   window.addEventListener('resize', scheduleUpdate, { passive: true });
+  window.addEventListener('load', scheduleUpdate, { passive: true });
+
+  container.querySelectorAll('img').forEach((img) => {
+    if (!img.complete) {
+      img.addEventListener('load', scheduleUpdate, { passive: true });
+    }
+  });
+
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(scheduleUpdate);
+    ro.observe(container);
+    items.forEach((item) => ro.observe(item));
+  }
+
   updateActiveItem();
 
   attachVerticalBoundaryNavigation(container, { mobileOnly: true });
