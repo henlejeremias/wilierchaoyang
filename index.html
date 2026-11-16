@@ -20,284 +20,318 @@
       background-color: black;
       color: #f2f2f2;
     }
+
     .link {
       text-decoration: none;
       color: #f2f2f2;
       margin-right: 30px;
     }
+
     .link img {
       margin-right: 5px;
     }
   </style>
 </head>
 
+<body>
 
-<header>
-  <!-- NAVBAR -->
-  <div class="container">
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid d-flex align-items-center">
-        <a class="navbar-brand">
-          <img src="img/logo-team.png" alt="Logo WILIER-CHAOYANG" width="70px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <div class="d-flex align-items-center navbar-nav">
-              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Impressum</a>
-              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal"
-                data-bs-target="#exampleModal2">Datenschutzerkl&auml;rung</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
-
-
-  <video autoplay playsinline loop muted>
-    <source src="img/headermovie.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <!--
-  <img src="img/slider10.webp" alt="Head Image" class="video-image">
-  -->
-
-
-        <!-- MODAL Impressum -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Impressum</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
-                <p>Tobias Ullmann<br />
-                  Fahrrad-Werkstatt<br />
-                  Johann-Friedrich-Stra&szlig;e 3<br />
-                  91161 Hilpoltstein</p>
-
-                <h3>Kontakt</h3>
-                <p>Telefon: +49 151 11679738<br />
-                  E-Mail: <a href="mailto:tobi@tu-sports.de">tobi@tu-sports.de</a></p>
-
-                <h3>Umsatzsteuer-ID</h3>
-                <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
-                  DE264528486</p>
-
-                <h3>EU-Streitschlichtung</h3>
-                <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a
-                    href="https://ec.europa.eu/consumers/odr/" target="_blank"
-                    rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br /> Unsere E-Mail-Adresse
-                  finden Sie oben im Impressum.</p>
-
-                <h3>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h3>
-                <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
-                  Verbraucherschlichtungsstelle teilzunehmen.</p>
-
-                <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
-
-                <p>Inhaltlich verantwortlich gem&auml;&szlig; &sect; 5 TMG ist Tobias Ullmann, Kontaktdaten siehe oben.
-                </p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+  <header>
+    <!-- NAVBAR -->
+    <div class="container">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid d-flex align-items-center">
+          <a class="navbar-brand">
+            <img src="img/logo-team.png" alt="Logo WILIER-CHAOYANG" width="70px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="d-flex align-items-center navbar-nav">
+                <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Impressum</a>
+                <a href="#" class="nav-link fw-bold" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2">Datenschutzerkl&auml;rung</a>
               </div>
             </div>
           </div>
         </div>
-        <!-- MODAL Impressum Ende -->
+      </nav>
+    </div>
 
-        <!-- MODAL Datenschutz -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
-          aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel2">Datenschutzerkl&auml;rung</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <p>Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung
-                  (DSGVO), ist:</p>
-                <p>Tobias Ullmann</p>
-                <h3>Ihre Betroffenenrechte</h3>
-                <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende
-                  Rechte ausüben:</p>
-                <ul>
-                  <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),</li>
-                  <li>Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),</li>
-                  <li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
-                  <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch
-                    nicht löschen dürfen (Art. 18 DSGVO),</li>
-                  <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO) und</li>
-                  <li>Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag
-                    mit uns abgeschlossen haben (Art. 20 DSGVO).</li>
-                </ul>
-                <p>Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die
-                  Zukunft widerrufen.</p>
-                <p>Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden, z. B. an die
-                  zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder an die für uns als verantwortliche
-                  Stelle zuständige Behörde.</p>
-                <p>Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit Anschrift finden Sie unter:
-                  <a href="https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html" target="_blank"
-                    rel="noopener nofollow">https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html</a>.
-                </p>
-                <p></p>
-                <h3>Erfassung allgemeiner Informationen beim Besuch unserer Website</h3>
-                <h4>Art und Zweck der Verarbeitung:</h4>
-                <p>Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren oder anderweitig
-                  Informationen übermitteln, werden automatisch Informationen allgemeiner Natur erfasst. Diese
-                  Informationen (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das verwendete
-                  Betriebssystem, den Domainnamen Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches. </p>
-                <p>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</p>
-                <ul>
-                  <li>Sicherstellung eines problemlosen Verbindungsaufbaus der Website,</li>
-                  <li>Sicherstellung einer reibungslosen Nutzung unserer Website,</li>
-                  <li>Auswertung der Systemsicherheit und -stabilität sowie</li>
-                  <li>zur Optimierung unserer Website.</li>
-                </ul>
-                <p>Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art
-                  werden von uns ggfs. anonymisiert statistisch ausgewertet, um unseren Internetauftritt und die
-                  dahinterstehende Technik zu optimieren. </p>
-                <h4>Rechtsgrundlage und berechtigtes Interesse:</h4>
-                <p>Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses
-                  an der Verbesserung der Stabilität und Funktionalität unserer Website.</p>
-                <h4>Empfänger:</h4>
-                <p>Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und die Wartung unserer
-                  Webseite als Auftragsverarbeiter tätig werden.</p>
-                <p></p>
-                <h4>Drittlandtransfer:</h4>
-                <p>Die erhobenen Daten werden ggfs. in folgende Drittländer übertragen: </p>
-                <p>USA</p>
-                <p>Folgende Datenschutzgarantien liegen vor: </p>
-                <p>Standard-Vertragsklauseln</p>
-                <p></p>
-                <h4>Speicherdauer:</h4>
-                <p>Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr erforderlich sind. Dies
-                  ist für die Daten, die der Bereitstellung der Website dienen, grundsätzlich der Fall, wenn die
-                  jeweilige Sitzung beendet ist. </p>
-                <p> Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens 14 Tagen der Fall. Eine
-                  darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-Adressen der Nutzer
-                  anonymisiert, sodass eine Zuordnung des aufrufenden Clients nicht mehr möglich ist.</p>
-                <p></p>
-                <h4>Bereitstellung vorgeschrieben oder erforderlich:</h4>
-                <p>Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich noch vertraglich
-                  vorgeschrieben. Ohne die IP-Adresse ist jedoch der Dienst und die Funktionsfähigkeit unserer Website
-                  nicht gewährleistet. Zudem können einzelne Dienste und Services nicht verfügbar oder eingeschränkt
-                  sein. Aus diesem Grund ist ein Widerspruch ausgeschlossen. </p>
-                <p></p>
-                <h3>SSL-Verschlüsselung</h3>
-                <p>Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der
-                  Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.</p>
-                <p></p>
-                <hr>
-                <h3>Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO</h3>
-                <h4>Einzelfallbezogenes Widerspruchsrecht</h4>
-                <p>Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen
-                  die Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund Art. 6 Abs. 1 lit. f DSGVO
-                  (Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt, Widerspruch einzulegen; dies
-                  gilt auch für ein auf diese Bestimmung gestütztes Profiling im Sinne von Art. 4 Nr. 4 DSGVO.</p>
-                <p>Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht mehr verarbeiten, es sei
-                  denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen,
-                  Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder
-                  Verteidigung von Rechtsansprüchen.</p>
-                <h4>Empfänger eines Widerspruchs</h4>
-                <p>Tobias Ullmann
-                  <br>Johann-Friedrich-Strasse 3
-                  <br>91161 Hilpoltstein
-                </p>
-                <hr>
-                <h3>Änderung unserer Datenschutzbestimmungen</h3>
-                <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen
-                  rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung
-                  umzusetzen, z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue
-                  Datenschutzerklärung.</p>
-                <h3>Fragen an den Datenschutzbeauftragten</h3>
-                <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich
-                  direkt an die für den Datenschutz verantwortliche Person in unserer Organisation:</p>
-                <p></p>
-                <p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a
-                      href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank"
-                      rel="noopener">externe Datenschutzbeauftragte</a> (Version #2020-09-30).</em></p>
+    <video autoplay playsinline loop muted>
+      <source src="img/headermovie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- <img src="img/slider10.webp" alt="Head Image" class="video-image">-->
 
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
+    <!-- MODAL Impressum -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Impressum</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Angaben gem&auml;&szlig; &sect; 5 TMG</h3>
+            <p>Tobias Ullmann<br />
+              Fahrrad-Werkstatt<br />
+              Johann-Friedrich-Stra&szlig;e 3<br />
+              91161 Hilpoltstein</p>
+
+            <h3>Kontakt</h3>
+            <p>Telefon: +49 151 11679738<br />
+              E-Mail: <a href="mailto:tobi@tu-sports.de">tobi@tu-sports.de</a></p>
+
+            <h3>Umsatzsteuer-ID</h3>
+            <p>Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br />
+              DE264528486</p>
+
+            <h3>EU-Streitschlichtung</h3>
+            <p>Die Europ&auml;ische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a
+                href="https://ec.europa.eu/consumers/odr/" target="_blank"
+                rel="noopener noreferrer">https://ec.europa.eu/consumers/odr/</a>.<br /> Unsere E-Mail-Adresse finden
+              Sie oben im Impressum.</p>
+
+            <h3>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h3>
+            <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
+              Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+            <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
+
+            <p>Inhaltlich verantwortlich gem&auml;&szlig; &sect; 5 TMG ist Tobias Ullmann, Kontaktdaten siehe oben. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
           </div>
         </div>
-        <!-- MODAL Datenschutz Ende -->
-
-      </div>
-    </nav>
-  </div>
-
-</header>
-
-<main>
-
-  <div class="container my-5" id="about-not">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center">
-        <h1 class="fw-bold">Team WILIER-CHAOYANG</h1>
-      </div>
-      <div class="col-md-9 col-12 mt-3 text-center">
-        <p>
-          Herzlich Willkommen beim Mountainbike-Rennsportteam WILIER-CHAOYANG. Aktuelle Informationen, Renntermine, Ergebnisse und Bilder finden Sie stets auf unseren Social-Media-Kan&auml;len.
-        </p>
       </div>
     </div>
-  </div>
+    <!-- MODAL Impressum Ende -->
 
-  <div class="container my-5" id="bikeshop">
-    <div class="row">
-      
+    <!-- MODAL Datenschutz -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel2">Datenschutzerkl&auml;rung</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3>Datenschutz auf einen Blick</h3>
+            <h4>Allgemeine Hinweise</h4>
+            <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
+              passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
+              persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie
+              unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
+            <h4>Datenerfassung auf dieser Website</h4>
+            <p><strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong></p>
+            <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können
+              Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.</p>
+            <p><strong>Wie erfassen wir Ihre Daten?</strong></p>
+            <p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um
+              Daten handeln, die Sie in ein Kontaktformular eingeben.</p>
+            <p>Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere
+              IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder
+              Uhrzeit des Seitenaufruufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website
+              betreten.</p>
+            <p><strong>Wofür nutzen wir Ihre Daten?</strong></p>
+            <p>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere
+              Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.</p>
+            <p><strong>Welche Rechte haben Sie bezüglich Ihrer Daten?</strong></p>
+            <p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer
+              gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder
+              Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben,
+              können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter
+              bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des
+              Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.</p>
+            <p>Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.</p>
+            <h3>Allgemeine Hinweise und Pflichtinformationen</h3>
+            <h4>Datenschutz</h4>
+            <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
+              personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie
+              dieser Datenschutzerklärung.</p>
+            <p>Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene
+              Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende
+              Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch,
+              wie und zu welchem Zweck das geschieht.</p>
+            <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail)
+              Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist
+              nicht möglich.</p>
+            <h4>Hinweis zur verantwortlichen Stelle</h4>
+            <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
+            <p>Tobias Ullmann<br />
+              Johann-Friedrich-Strasse 3<br />
+              91161 Hilpoltstein</p>
+
+            <p>Telefon: +49 151 11679738<br />
+              E-Mail: tobi@tu-sports.de</p>
+            <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
+              über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o.
+              Ä.) entscheidet.</p>
+
+            <h4>Speicherdauer</h4>
+            <p>Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben
+              Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein
+              berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen,
+              werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für die Speicherung
+              Ihrer personenbezogenen Daten haben (z. B. steuer- oder handelsrechtliche Aufbewahrungsfristen); im
+              letztgenannten Fall erfolgt die Löschung nach Fortfall dieser Gründe.</p>
+            <h4>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
+            <p>Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine
+              bereits erteilte Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten
+              Datenverarbeitung bleibt vom Widerruf unberührt.</p>
+            <h4>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)
+            </h4>
+            <p>WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO ERFOLGT, HABEN SIE
+              JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG
+              IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN
+              GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE
+              DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN
+              DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG
+              NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER
+              GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
+            </p>
+            <p>WIRD IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS RECHT,
+              JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE
+              DERARTIGER
+              WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG
+              STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER
+              DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</p>
+            <h4>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h4>
+            <p>Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer
+              Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes
+              oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger
+              verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</p>
+            <h4>Recht auf Datenübertragbarkeit</h4>
+            <p>Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
+              automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format
+              aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen
+              verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
+            <h4>SSL- bzw. TLS-Verschlüsselung</h4>
+            <p>Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum
+              Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw.
+              TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers
+              von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.</p>
+            <p>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln,
+              nicht von Dritten mitgelesen werden.</p>
+            <h4>Auskunft, Löschung und Berichtigung</h4>
+            <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche
+              Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der
+              Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu
+              weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit an uns wenden.</p>
+            <h4>Recht auf Einschränkung der Verarbeitung</h4>
+            <p>Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+              Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in
+              folgenden Fällen:</p>
+            <ul>
+              <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen
+                wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die
+                Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+              <li>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt
+                der Löschung die Einschränkung der Datenverarbeitung verlangen.</li>
+              <li>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung
+                oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die
+                Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
+              <li>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen
+                Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen
+                überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
+                verlangen.</li>
+            </ul>
+            <p>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von
+              ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder
+              Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen
+              Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines
+              Mitgliedstaats verarbeitet werden.</p>
+
+            <h3>Widerspruch Werbe-Mails</h3>
+            <p>Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht
+              ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber
+              der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
+              Werbeinformationen, etwa durch Spam-E-Mails, vor.</p>
+            <br>
+            <hr>
+            <h3>Widerspruchsrecht</h3>
+            <p>Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die
+              Verarbeitung Sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchst. e oder f
+              DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes
+              Profiling. Wir verarbeiten die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn, wir
+              können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und
+              Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von
+              Rechtsansprüchen.</p>
+            <h4>Empfänger eines Widerspruchs</h4>
+            <p>Tobias Ullmann<br />
+              Johann-Friedrich-Strasse 3<br />
+              91161 Hilpoltstein</p>
+            <hr>
+            <h3>Änderung unserer Datenschutzbestimmungen</h3>
+            <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen rechtlichen
+              Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen,
+              z. B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue
+              Datenschutzerklärung.</p>
+            <h3>Fragen an den Datenschutzbeauftragten</h3>
+            <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt
+              an die für den Datenschutz verantwortliche Person in unserer Organisation:</p>
+            <p></p>
+            <p><em>Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für <a
+                  href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/" target="_blank"
+                  rel="noopener">externe Datenschutzbeauftragte</a> (Version #2020-09-30).</em></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL Datenschutz Ende -->
+  </header>
+
+  <main>
+    <!-- ABOUT -->
+    <div class="container my-5" id="about-not">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h1 class="fw-bold">Team WILIER-CHAOYANG</h1>
+        </div>
+        <div class="col-md-9 col-12 mt-3 text-center">
+          <p>Herzlich Willkommen beim Mountainbike-Rennsportteam WILIER-CHAOYANG. Aktuelle Informationen, Renntermine,
+            Ergebnisse und Bilder finden Sie stets auf unseren Social-Media-Kan&auml;len.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="container my-5" id="bikeshop">
+      <div class="row">
         <!-- MODAL Die Bikes -->
         <div class="modal fade" id="diebikes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Die Bikes</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                  aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <h4>Wilier Urta</h4>
+                <h4>Wilier Urta Max SLR</h4>
                 <p class="text-muted">Fully</p>
-                <img src="img/urta1.webp" alt="" class="img-fluid rounded"><br><br>
-                <p><strong>Federgabel: </strong>Fox 32 SC Factory, 100mm</p>
-                <p><strong>Dämpfer: </strong>Fox Float DPS Factory</p>
-                <p><strong>Schaltgruppe: </strong>SRAM XX1 Eagle</p>
-                <p><strong>Bremsen: </strong>Shimano XT M8100</p>
-                <p><strong>Lenker, Vorbau: </strong>Wilier Urta Bar</p>
-                <p><strong>Laufradsatz: </strong>Miche K4 Carbon</p>
+                <img src="img/bikes.webp" alt="" class="img-fluid rounded"><br><br>
+                <p><strong>Federgabel: </strong>RockShox SID Ultimate, 120mm</p>
+                <p><strong>Dämpfer: </strong>RockShox SID Luxe Ultimate</p>
+                <p><strong>Schaltgruppe: </strong>Shimano XTR M9200 Di2</p>
+                <p><strong>Bremsen: </strong>Shimano XTR M9200</p>
+                <p><strong>Lenker, Vorbau: </strong>Wilier Urta Max Bar</p>
+                <p><strong>Laufradsatz: </strong>Miche K1 Evo Carbon</p>
                 <p><strong>Reifen vorne: </strong>Chaoyang Phantom Wet 120TPI oder Chaoyang Phantom Dry 120TPI</p>
                 <p><strong>Reifen hinten: </strong>Chaoyang Phantom Dry 120TPI oder Chaoyang Phantom Speed 120TPI</p>
-                <p><strong>Griffe: </strong>Force</p>
-                <p><strong>Sattelstütze, Sattel: </strong>individuell</p>
+                <p><strong>Sattelstütze: </strong>Fox Transfer SL</p>
+                <p><strong>Pepi's Tire Noodle: </strong>R-Evolution</p>
+                <p><strong>Sattel: </strong>individuell</p>
                 <p><strong>Pedale: </strong>individuell</p>
-                <p><strong>Gewicht: </strong>9,6kg</p>
-                <hr>
-                <h4>Wilier Usma</h4>
-                <p class="text-muted">Hardtail</p>
-                <img src="img/usma1.webp" alt="" class="img-fluid rounded"><br><br>
-                <p><strong>Federgabel: </strong>Fox 32 SC Factory, 100mm</p>
-                <p><strong>Schaltgruppe: </strong>SRAM XX1 Eagle</p>
-                <p><strong>Bremsen: </strong>Shimano XT M8100</p>
-                <p><strong>Lenker, Vorbau: </strong>Wilier Urta Bar</p>
-                <p><strong>Laufradsatz: </strong>Miche K4 Carbon</p>
-                <p><strong>Reifen vorne: </strong>Chaoyang Phantom Wet 120TPI oder Chaoyang Phantom Dry 120TPI</p>
-                <p><strong>Reifen hinten: </strong>Chaoyang Phantom Dry 120TPI oder Chaoyang Phantom Speed 120TPI</p>
-                <p><strong>Griffe: </strong>Force</p>
-                <p><strong>Sattelstütze, Sattel: </strong>individuell</p>
-                <p><strong>Pedale: </strong>individuell</p>
-                <p><strong>Gewicht: </strong>9,0kg</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
@@ -307,985 +341,677 @@
         </div>
         <!-- MODAL Die Bikes Ende -->
 
-      <div class="col-12 col-md-4 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wilierchaoyang/" class="stretched-link">
-            <img src="img/mockup-insta.webp" alt="" class="img-fluid rounded filter-gray">          </a>
-        </p>
-        <h5 class="fw-bold">Instagram</h5>
-        <p class="text-muted">Die aktuellsten Bilder, News und Ergebnisse immer auf Instagram.</p>
-      </div>
-      <div class="col-12 col-md-4 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wilierchaoyang" class="stretched-link">
-            <img src="img/mockup-facebook.webp" alt="" class="img-fluid rounded"></a>
-        </p>
-        <h5 class="fw-bold">Facebook</h5>
-        <p class="text-muted">Unsere Facebook-Seite mit Neuigkeiten und vielem mehr.</p>
-      </div>
-      <div class="col-12 col-md-4 py-3 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#diebikes"> <img src="img/bikes.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Die Bikes</h5>
-        <p class="text-muted">Alle Details zu unseren Rennbikes.</p>
+        <!-- MODAL Die Teambekleidung -->
+        <div class="modal fade" id="dieteambekleidung" tabindex="-1" aria-labelledby="exampleModalLabelTeambekleidung"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabelTeambekleidung">Die Teambekleidung</h1>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                  aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <a href="http://www.tu-sports.de/" target="_blank" rel="noopener noreferrer">
+                  <img src="img/bekleidung.webp" alt="Die Teambekleidung" class="img-fluid rounded">
+                </a><br><br>
+                <p>In limitierter Menge zum Kauf verfügbar. Besucht hierzu <a href="http://www.tu-sports.de/"
+                    target="_blank" rel="noopener noreferrer" style="color: #f2f2f2; text-decoration: underline;">die
+                    Fahrrad-Werkstatt Hilpoltstein</a>.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MODAL Die Teambekleidung Ende -->
+
+        <div class="col-12 col-md-3 py-3 position-relative zoom">
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wilierchaoyang/"
+              class="stretched-link">
+              <img src="img/mockup-insta.webp" alt="" class="img-fluid rounded filter-gray">
+            </a>
+          </p>
+          <h5 class="fw-bold">Instagram</h5>
+          <p class="text-muted">Die aktuellsten Bilder, News und Ergebnisse immer auf Instagram.</p>
+        </div>
+
+        <div class="col-12 col-md-3 py-3 position-relative zoom">
+          <p>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/wilierchaoyang"
+              class="stretched-link">
+              <img src="img/mockup-facebook.webp" alt="" class="img-fluid rounded">
+            </a>
+          </p>
+          <h5 class="fw-bold">Facebook</h5>
+          <p class="text-muted">Unsere Facebook-Seite mit Neuigkeiten und vielem mehr.</p>
+        </div>
+
+        <div class="col-12 col-md-3 py-3 position-relative zoom">
+          <p>
+            <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#diebikes">
+              <img src="img/bikes.webp" alt="" class="img-fluid rounded">
+            </a>
+          </p>
+          <h5 class="fw-bold">Die Bikes</h5>
+          <p class="text-muted">Alle Details zu unseren Rennbikes.</p>
+        </div>
+
+        <div class="col-12 col-md-3 py-3 position-relative zoom">
+          <p>
+            <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#dieteambekleidung">
+              <img src="img/bekleidung.webp" alt="" class="img-fluid rounded">
+            </a>
+          </p>
+          <h5 class="fw-bold">Die Teambekleidung</h5>
+          <p class="text-muted">In begrenzter Menge verfügbar.</p>
+        </div>
       </div>
     </div>
-  </div>
 
 
-  <section style="background-color: white; color: black;" class="pt-5">
-  <div class="container my-5" id="bikeshop">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="fw-bold">Unsere Sponsoren</h1>
-      </div>
+    <section style="background-color: white; color: black;" class="pt-5 pb-2">
+      <div class="container mb-0" id="sponsors">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="fw-bold">Unsere Sponsoren</h1>
+          </div>
 
-      <div class="col-12 col-md-6 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.wilier.com/" class="stretched-link">
-            <img src="img/sponsor-wilier.webp" alt="" class="img-fluid rounded filter-gray">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Wilier</h5>-->
+          <div class="col-12 col-md-6 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.wilier.com/" class="stretched-link">
+                <img src="img/sponsor-wilier.webp" alt="" class="img-fluid rounded filter-gray">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Wilier</h5>-->
+          </div>
+
+          <div class="col-12 col-md-6 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.chaoyangtire.com/" class="stretched-link">
+                <img src="img/sponsor-chaoyang.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Chaoyang</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.kwenergie.de/" class="stretched-link">
+                <img src="img/sponsor-kw.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">KW Energie</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.pyraser.de/" class="stretched-link">
+                <img src="img/sponsor-pyraser.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Pyraser</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/the_black_house_istria/"
+                class="stretched-link">
+                <img src="img/sponsor-blackhouse.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Gaerne</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="http://www.tu-sports.de/" class="stretched-link">
+                <img src="img/sponsor-tu.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">TU-Sports</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.namedsport.com/" class="stretched-link">
+                <img src="img/sponsor-namedsport.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Namedsport</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="http://www.gaerne.com/cycling/en/home/"
+                class="stretched-link">
+                <img src="img/sponsor-gaerne.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Gaerne</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://susanne-buckenlei.de/" class="stretched-link">
+                <img src="img/sponsor-susa.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Susas World</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.force.bike/" class="stretched-link">
+                <img src="img/sponsor-force.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Force</h5>-->
+          </div>
+
+          <div class="col-6 col-md-3 py-3 position-relative zoom">
+            <p>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.pepis-ptn.com/" class="stretched-link">
+                <img src="img/sponsor-ptn.webp" alt="" class="img-fluid rounded">
+              </a>
+            </p>
+            <!-- <h5 class="fw-bold">Force</h5>-->
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.chaoyangtire.com/" class="stretched-link">
-            <img src="img/sponsor-chaoyang.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Chaoyang</h5>-->
+    </section>
+
+
+    <section style="background-color: black; color: #f2f2f2;" class="pt-5 pb-2">
+      <div class="container mb-0" id="team">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="fw-bold">Das Team</h1>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSomavilla"> <img
+                  src="img/somavilla.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Bianca Somavilla</h5>
+            <p class="text-muted">Fahrerin</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalMarkt"> <img
+                  src="img/markt.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Karl Markt</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalHochenwarter"> <img
+                  src="img/hochenwarter.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Uwe Hochenwarter</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalAcs"> <img
+                  src="img/acs.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Igor Acs</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSpahn"> <img
+                  src="img/spahn.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Hannes Spahn</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalRiedl"> <img
+                  src="img/riedl.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Tobi Riedl</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalPechacek"> <img
+                  src="img/pecacheck.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Luca Pechacek</h5>
+            <p class="text-muted">Fahrer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalUllmann"> <img
+                  src="img/ullmann.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Tobi Ullmann</h5>
+            <p class="text-muted">Teamchef</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalRamspeck"> <img
+                  src="img/ramspeck.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Peter Ramspeck</h5>
+            <p class="text-muted">Betreuer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSpiegel"> <img
+                  src="img/spiegel.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Walter Spiegel</h5>
+            <p class="text-muted">Betreuer</p>
+          </div>
+
+          <div class="col-6 col-md-3 py-4 position-relative zoom">
+            <p>
+              <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalFelleiter"> <img
+                  src="img/felleiter.webp" alt="" class="img-fluid rounded"> </a>
+            </p>
+            <h5 class="fw-bold">Wolfgang Felleiter</h5>
+            <p class="text-muted">Betreuer</p>
+          </div>
+
+          <!-- MODAL Somavilla -->
+          <div class="modal fade" id="modalSomavilla" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Bianca Somavilla</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/somavilla.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/bianca_tirol" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter: </strong>38</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>2. Platz🥈 Österreichische Marathon-Staatsmeisterschaft 2025 (Masters)</li>
+                    <li>1. Platz🥇 Salzkammergut Trophy 2025 (B-Strecke)</li>
+                    <li>3. Platz🥉 Ötztaler Radmarathon Overall 2021</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Somavilla Ende -->
+
+          <!-- MODAL Markt -->
+          <div class="modal fade" id="modalMarkt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Karl Markt</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/markt.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/charlymarkt" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <a href="https://www.facebook.com/charly.markt" target="_blank" class="link">
+                    <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Facebook</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter: </strong>45</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>6. Platz Marathon Weltmeisterschaft 2021 Elite</li>
+                    <li>17. Platz XCO Weltmeisterschaft 2012 Elite</li>
+                    <li>20. Platz Olympische Spiele 2012 XCO London</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Markt Ende -->
+
+          <!-- MODAL Hochenwarter -->
+          <div class="modal fade" id="modalHochenwarter" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Uwe Hochenwarter</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/hochenwarter.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/uwehochenwarter/" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <a href="https://facebook.com/uwe.hochenwarter/" target="_blank" class="link">
+                    <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Facebook</span>
+                  </a>
+                  <a href="https://www.uwehochenwarter.com/" target="_blank" class="link">
+                    <img src="img/web.png" alt="Website Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Website</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>39, gelernter Tischler, MTB Ex-Profi, Soldat</p>
+                  <p><strong>Wohnort: </strong>Villach / Kärnten (Österreich)</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>2. Platz🥈 Marathon-Europameisterschaft 2024+2025 (Masters)</li>
+                    <li>1. Platz🥇 Österreichische Marathon-Staatsmeisterschaft 2024+2025 (Masters)</li>
+                    <li>1. Platz🥇 HERO Dolomites 2025 (Masters)</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Hochenwarter Ende -->
+
+          <!-- MODAL Acs -->
+          <div class="modal fade" id="modalAcs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Igor Acs</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/acs.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/igor_acs_/" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>36, Unternehmensberater und Kinesiologie-Student</p>
+                  <p><strong>Wohnort: </strong>Sisak, Kroatien</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>3. Platz🥉 WildBearMTB Overall Men 2025</li>
+                    <li>3. Platz🥉 4-Islands Kroatien Amateur Men 2023</li>
+                    <li>3. Platz🥉 Kroatien Cup Overall Elite 2022</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Acs Ende -->
+
+          <!-- MODAL Spahn -->
+          <div class="modal fade" id="modalSpahn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Hannes Spahn</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/spahn.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/spahnhannes/" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>27, Heilerziehungspfleger</p>
+                  <p><strong>Wohnort: </strong>Hausen bei Schonungen</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>2. Platz🥈 Xterra Weltmeisterschaft (Altersklasse 25-29)</li>
+                    <li>1. Platz🥇 Ortler Bike Marathon (Classic Distanz)</li>
+                    <li>2. Platz🥈 Riva BIKE Festival (Ronda Piccola)</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Spahn Ende -->
+
+          <!-- MODAL Riedl -->
+          <div class="modal fade" id="modalRiedl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Tobi Riedl</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/riedl.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/rietorides/" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>40, Spezialist für Luftfahrtkomponenten</p>
+                  <p><strong>Wohnort: </strong>Neuburg an der Donau</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>Top 10 Marathon-Europameisterschaft (Masters)</li>
+                    <li>Top 10 Deutsche Cyclocross-Meisterschaft (Elite)</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Riedl Ende -->
+
+          <!-- MODAL Pechacek -->
+          <div class="modal fade" id="modalPechacek" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Luca Pechacek</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/pecacheck.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.instagram.com/lucapechacek/" target="_blank" class="link">
+                    <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Instagram</span>
+                  </a>
+                  <a href="https://www.facebook.com/luca.pechacek/" target="_blank" class="link">
+                    <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Facebook</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>22, Student</p>
+                  <p><strong>Wohnort: </strong>Schlierbach</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>1. Platz🥇 Bike Festival Willingen (Short Distance)</li>
+                    <li>1. Platz🥇 Schwarzwald-Bike-Marathon (Jugend)</li>
+                    <li>3. Platz🥉 Dolomiti Superbike (Short Distance)</li>
+                    <li>3. Platz🥉 Black Forest Ultra Bike-Marathon Overall (Short Track)</li>
+                    <li>4. Platz Kronplatzking (Prince) Marathon Overall (1. U23)</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Pechacek Ende -->
+
+          <!-- MODAL Ullmann -->
+          <div class="modal fade" id="modalUllmann" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Tobi Ullmann</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/ullmann.webp" alt="" class="img-fluid rounded"><br><br>
+                  <a href="https://www.facebook.com/tobias.ullmann.1" target="_blank" class="link">
+                    <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
+                    <span style="text-decoration:none; color:inherit;"> Facebook</span>
+                  </a>
+                  <br><br>
+                  <p><strong>Alter, Beruf: </strong>44, Inhaber der Fahrrad-Werkstatt Hilpoltstein und TU-Sports,
+                    Teamchef des Teams WILIER-CHAOYANG</p>
+                  <p><strong>Wohnort: </strong>Kronmühle, Allersberg</p>
+                  <p><strong>Top Erfolge: </strong></p>
+                  <ul>
+                    <li>Teamchef des Teams WILIER-CHAOYANG und Inhaber von TU-Sports/Fahrrad-Werkstatt</li>
+                    <li>Siege bei Mountainbike XC- und Marathonrennen seit 1995; Teilnahme an UCI XC Welt-, Europa- und
+                      Deutschlandcup; letztes Ergebnis: 2. Platz🥈 Overall (1. Platz🥇 Masters) KRK n Roll Short
+                      Distance 2025</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Ullmann Ende -->
+
+          <!-- MODAL Ramspeck -->
+          <div class="modal fade" id="modalRamspeck" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Peter Ramspeck</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/ramspeck.webp" alt="" class="img-fluid rounded"><br><br>
+                  <p><strong>Alter, Beruf: </strong>52, Vertrieb</p>
+                  <p><strong>Wohnort: </strong>Mieders, Stubaital</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Ramspeck Ende -->
+
+          <!-- MODAL Spiegel -->
+          <div class="modal fade" id="modalSpiegel" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Walter Spiegel</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/spiegel.webp" alt="" class="img-fluid rounded"><br><br>
+                  <p><strong>Alter, Beruf: </strong>49, Vertriebsingenieur</p>
+                  <p><strong>Wohnort: </strong>Weissenburg</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Spiegel Ende -->
+
+          <!-- MODAL Felleiter -->
+          <div class="modal fade" id="modalFelleiter" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Wolfgang Felleiter</h1>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="img/felleiter.webp" alt="" class="img-fluid rounded"><br><br>
+                  <p><strong>Alter, Beruf: </strong>54, Werkstattleiter Bikeshop</p>
+                  <p><strong>Wohnort: </strong>Eckersmühlen, Hilpoltstein</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL Felleiter Ende -->
+
+        </div>
       </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.kwenergie.de/" class="stretched-link">
-            <img src="img/sponsor-kw.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">KW Energie</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.pyraser.de/" class="stretched-link">
-            <img src="img/sponsor-pyraser.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Pyraser</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="http://www.gaerne.com/cycling/en/home/" class="stretched-link">
-            <img src="img/sponsor-gaerne.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Gaerne</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="http://www.tu-sports.de/" class="stretched-link">
-            <img src="img/sponsor-tu.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">TU-Sports</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.namedsport.com/" class="stretched-link">
-            <img src="img/sponsor-namedsport.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Namedsport</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://susanne-buckenlei.de/" class="stretched-link">
-            <img src="img/sponsor-susa.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Susas World</h5>-->
-      </div>
-      <div class="col-6 col-md-3 py-3 position-relative zoom">
-        <p>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.force.bike/" class="stretched-link">
-            <img src="img/sponsor-force.webp" alt="" class="img-fluid rounded">
-          </a>
-        </p>
-        <!-- <h5 class="fw-bold">Force</h5>-->
-      </div>
+    </section>
+
+    <div class="container pt-3">
+      <hr>
     </div>
-  </div>
 
-
-  <section style="background-color: black; color: #f2f2f2;" class="pt-5">
-  <div class="container my-5" id="bikeshop">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="fw-bold">Das Team</h1>
-      </div>
-      
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalHochenwarter"> <img src="img/hochenwarter.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Uwe Hochenwarter</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-      
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalStier"> <img src="img/stier.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Felix Stier</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalMaegdefessel"> <img src="img/maegdefessel.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Sven M&auml;gdefessel</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalAcs"> <img src="img/acs.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Igor Acs</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalWeismantel"> <img src="img/weismantel.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Tim Weismantel</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalMetschberger"> <img src="img/metschberger.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Markus Metschberger</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalPechacek"> <img src="img/pechacek.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Luca Pechacek</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSchroedl"> <img src="img/schroedl.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Andreas Schr&ouml;dl</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSpahn"> <img src="img/spahn.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Hannes Spahn</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalRiedl"> <img src="img/riedl.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Tobias Riedl</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalFehr"> <img src="img/fehr.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Max Fehr</h5>
-        <p class="text-muted">Fahrer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalUllmann"> <img src="img/ullmann.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Tobias Ullmann</h5>
-        <p class="text-muted">Teamchef</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalFelleiter"> <img src="img/felleiter.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Wolfgang Felleiter</h5>
-        <p class="text-muted">Betreuer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalKoenig"> <img src="img/koenig.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Herbert K&ouml;nig</h5>
-        <p class="text-muted">Betreuer</p>
-      </div>
-
-      <div class="col-6 col-md-3 py-4 position-relative zoom">
-        <p>
-          <a href="#" class="nav-link fw-bold" data-bs-toggle="modal" data-bs-target="#modalSpiegel"> <img src="img/spiegel.webp" alt="" class="img-fluid rounded"> </a>
-          </a>
-        </p>
-        <h5 class="fw-bold">Walter Spiegel</h5>
-        <p class="text-muted">Betreuer</p>
-      </div>
-
-
-        <!-- MODAL Hochenwarter -->
-        <div class="modal fade" id="modalHochenwarter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Uwe Hochenwarter</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/hochenwarter.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/uwehochenwarter/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <a href="https://facebook.com/uwe.hochenwarter/" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                <a href="https://www.uwehochenwarter.com/" target="_blank" class="link">
-                  <img src="img/web.png" alt="Website Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Website</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>36, gelernter Tischler, MTB Ex-Profi, Soldat</p>
-                <p><strong>Wohnort:</strong> Villach / Kärnten (Österreich)</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li><span dir="ltr" role="presentation">12 Jahre Mountainbike XCO und Marathon Profi mit Weltcup, EM und WM Erfahrung</span></li>
-                <li><span dir="ltr" role="presentation">2x Österreichischer Meister Hillclimb</span></li>
-                <li><span dir="ltr" role="presentation">Sieger der Alpentour Steiermark und des Kitzalp Bike</span></li>
-                <li><span dir="ltr" role="presentation">Mehrere Top 10 Ergebnisse bei internationalen hochkarätigen Marathons</span></li>
-                <li>4. Sella Ronda Hero</li>
-                </ul>
-                <p><strong>Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li><span dir="ltr" role="presentation">Österreichischer Meister Hillclimb</span></li>
-                <li><span dir="ltr" role="presentation">Österreichischer Heeresmeister Berglauf</span></li>
-                <li><span dir="ltr" role="presentation">1.Pl Master Kamptal Trophy Langenlois XCO</span></li>
-                <li><span dir="ltr" role="presentation">1.Pl Master Mythos Primiero Dolomiti</span></li>
-                <li><span dir="ltr" role="presentation">1.Pl Master Kronplatz King</span></li>
-                <li><span dir="ltr" role="presentation">1.Pl Raid des Hautes-Fagnes Marathon Belgien medium Distanz</span></li>
-                <li><span dir="ltr" role="presentation">2.Pl Top Six Stubalpen Marathon</span></li>
-                <li><span dir="ltr" role="presentation">2.Pl Top Six Wipfeltrophy Marathon</span></li>
-                <li><span dir="ltr" role="presentation">2.Pl Hillclimb Afritz</span></li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Internationale Top Erfolge in der Master Kategorie und natürlich weiterhin Spaß am biken haben, sowie das </span><span dir="ltr" role="presentation">Team &#8222;WILIER-CHAOYANG&#8220; bestmöglich nach außen transportieren.</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Hochenwarter Ende -->
-
-
-        <!-- MODAL Stier -->
-        <div class="modal fade" id="modalStier" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Felix Stier</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/stier.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/stier_f/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>30, Feuerwehrmann</p>
-                <p><strong>Wohnort: </strong>Hilpoltstein</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li><span id="page1R_mcid5" class="markedContent"><span id="page1R_mcid6" class="markedContent"><span id="page1R_mcid8" class="markedContent"><span dir="ltr" role="presentation">1. 12h Rennen Schnaittach Mixed</span></span></span></span></li>
-                <li><span id="page1R_mcid5" class="markedContent"><span id="page1R_mcid9" class="markedContent"><span id="page1R_mcid11" class="markedContent"><span dir="ltr" role="presentation">1. Salzkammergut Trophy E Strecke Team, Overall<br /></span></span></span></span></li>
-                <li><span id="page1R_mcid5" class="markedContent"><span id="page1R_mcid12" class="markedContent"><span id="page1R_mcid14" class="markedContent"><span dir="ltr" role="presentation">1. Challenge Roth Mixed Staffel (Radfahrer)</span></span></span></span></li>
-                <li><span id="page1R_mcid5" class="markedContent"><span id="page1R_mcid15" class="markedContent"><span id="page1R_mcid17" class="markedContent"><span dir="ltr" role="presentation">2. Güntersleben Marathon Mitteldistanz, Overall<br /></span></span></span></span></li>
-                <li><span id="page1R_mcid5" class="markedContent"><span id="page1R_mcid18" class="markedContent"><span id="page1R_mcid20" class="markedContent"><span dir="ltr" role="presentation">4. Kitzalp Bike Marathon Medium, Overall<br /></span></span></span></span></li>
-                <li>2. Güntersleben Marathon Mitteldistanz, Overall</li>
-                <li><span id="page1R_mcid21" class="markedContent"><span id="page1R_mcid22" class="markedContent"><span id="page1R_mcid24" class="markedContent"><span dir="ltr" role="presentation">5. Salzkammergut Trophy E-Strecke, Overall</span></span></span></span></li>
-                <li><span id="page1R_mcid21" class="markedContent"><span id="page1R_mcid25" class="markedContent"><span id="page1R_mcid27" class="markedContent"><span dir="ltr" role="presentation">6. Deutschlandtour Jedermann (Nürnberg)</span></span></span></span></li>
-                <li><span id="page1R_mcid21" class="markedContent"><span id="page1R_mcid28" class="markedContent"><span id="page1R_mcid30" class="markedContent"><span dir="ltr" role="presentation">9. Güntersleben Marathon Langdistanz, Overall<br /></span></span></span></span></li>
-                <li><span id="page1R_mcid21" class="markedContent"><span id="page1R_mcid31" class="markedContent"><span id="page1R_mcid33" class="markedContent"><span dir="ltr" role="presentation">10. Bikefestival Ronda Picola</span></span></span></span>, Overall</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li><span id="page1R_mcid39" class="markedContent"><span id="page1R_mcid40" class="markedContent"><span id="page1R_mcid42" class="markedContent"><span dir="ltr" role="presentation">1. Salzkammergut Trophy E Team</span></span></span></span></li>
-                <li><span id="page1R_mcid39" class="markedContent"><span id="page1R_mcid43" class="markedContent"><span id="page1R_mcid45" class="markedContent"><span dir="ltr" role="presentation">4. Kitzalp Bike Marathon Medium</span></span></span></span></li>
-                <li><span id="page1R_mcid46" class="markedContent"><span id="page1R_mcid53" class="markedContent"><span id="page1R_mcid55" class="markedContent"><span dir="ltr" role="presentation">4. Abendrennen Würzburg</span></span></span></span></li>
-                <li><span id="page1R_mcid35" class="markedContent"><span id="page1R_mcid36" class="markedContent"><span id="page1R_mcid38" class="markedContent"><span dir="ltr" role="presentation">5. Salzkammergut Trophy E-Strecke</span></span></span></span><span id="page1R_mcid39" class="markedContent"><span id="page1R_mcid43" class="markedContent"><span id="page1R_mcid45" class="markedContent"><span dir="ltr" role="presentation"><br /></span></span></span></span></li>
-                <li><span id="page1R_mcid46" class="markedContent"><span id="page1R_mcid47" class="markedContent"><span id="page1R_mcid49" class="markedContent"><span dir="ltr" role="presentation">8. Ortler Bike Marathon Langdistanz</span></span></span></span></li>
-                <li><span id="page1R_mcid46" class="markedContent"><span id="page1R_mcid50" class="markedContent"><span id="page1R_mcid52" class="markedContent"><span dir="ltr" role="presentation">12. Bikefestival Ronda Grande</span></span></span></span></li>
-                </ul>
-                <p><strong>Ziele 2023:</strong></p>
-                <span dir="ltr" role="presentation">Gut in die Saison kommen, viel Spass mit dem Team haben und gute Ergebnisse einfahren</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Stier Ende -->
-
-
-        <!-- MODAL Maegdefessel -->
-        <div class="modal fade" id="modalMaegdefessel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Sven M&auml;gdefessel</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/maegdefessel.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/themountainmemer/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <a href="https://www.facebook.com/people/Sven-M%C3%A4gdefessel/pfbid02tVtmkHdvcELW7swhTyYhH9rGeLyg9KUwUTRxDeu4B4DaCRw8igeGP1oKrqDycb2Al/" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>30, Doktorand<strong><br /></strong></p>
-                <p><strong>Wohnort: </strong>Freiburg</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li>2 x Sieg MTB Marathon Güntersleben, Overall</li>
-                <li>2. Bike Marathon Güntersleben Langdistanz, Overall</li>
-                <li>2. Bike Marathon Güntersleben Langdistanz, Overall</li>
-                <li>9. UCI Marathon La Forestiere, Overall</li>
-                <li>85. und 93. Platz Marathon Weltmeisterschaften</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022):</strong></p>
-                <ul>
-                <li>1. Platz Bike-Trophy Pleinfeld</li>
-                <li>5. Platz Bikemarathon Obermarchtal</li>
-                <li>2. Bike Marathon Güntersleben Langdistanz</li>
-                <li>6. Platz Black Forest Ultra Bike Marathon</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Podestplatzierungen und Siege bei MTB Festivals, Marathonrennen und Ritchey Challenge.<strong><br /></strong></span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Maegdefessel Ende -->
-
-
-        <!-- MODAL Acs -->
-        <div class="modal fade" id="modalAcs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Igor Acs</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/acs.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/igor_acs_/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>Unternehmensberater und Kinesiologie Student<strong><br /></strong></p>
-                <p><strong>Wohnort:</strong> Sisak/Kroatien</p>
-                <p><strong>Karriere Highlights:</strong></p>
-                <ul>
-                <li>3. Kroatiencup Marathon, 2022, Overall</li>
-                <li>5. Kroatische Meisterschaft Marathon, 2021, Elite</li>
-                <li>Top 10 Adria Bike Marathon Serie, 2019, Overall</li>
-                <li>26. 4-Islands Etappenrennen Kroatien, 2022, Overall</li>
-                </ul>
-                <p><strong>Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li>3. Crikvebica Marathon, Kroatiencup</li>
-                <li>7. Adria Bike, Island Hero Quer Queen Stage Marathon</li>
-                <li>11. Adria Bike, Helter Skelter Marathon<strong><br /></strong></li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Rennen fahren und gut im Team &#8222;WILIER-CHAOYANG&#8220; ankommen, Rennen gewinnen<strong><br /></strong></span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Acs Ende -->
-
-
-        <!-- MODAL Weismantel -->
-        <div class="modal fade" id="modalWeismantel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Tim Weismantel</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/weismantel.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/tim_weismantel/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <a href="https://www.facebook.com/radl.weismo/" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong><span dir="ltr" role="presentation">31, IT</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Systemelektroniker und Student</span><strong><br /></strong></p>
-                <p><strong>Wohnort: </strong><span dir="ltr" role="presentation">Gräfelfing</span></p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li><span dir="ltr" role="presentation">WM</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Teilnahme XCM Auronzo di Cadore (ITA, </span><span dir="ltr" role="presentation">2018)</span></li>
-                <li><span dir="ltr" role="presentation">1. Platz Gesamtwertung Ritchey</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Challenge </span><span dir="ltr" role="presentation">2018</span></li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022):</strong></p>
-                <ul>
-                <li><span dir="ltr" role="presentation">2. Platz Gesamtwertung Mountainbike</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Challenge</span></li>
-                <li><span dir="ltr" role="presentation">3. Platz Bayer</span><span dir="ltr" role="presentation">ische Meisterschaft X</span><span dir="ltr" role="presentation">C</span><span dir="ltr" role="presentation">M (Elite) </span><span dir="ltr" role="presentation">Trieb</span></li>
-                <li><span dir="ltr" role="presentation">6. Platz Salzkammergut Trophy (St</span><span dir="ltr" role="presentation">recke C)</span></li>
-                <li><span dir="ltr" role="presentation">7. Platz Angerberg (Str</span><span dir="ltr" role="presentation">ecke A)</span></li>
-                <li><span dir="ltr" role="presentation">8. Platz Montafon M2</span></li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <ul>
-                <li><span dir="ltr" role="presentation">I</span><span dir="ltr" role="presentation">m </span><span dir="ltr" role="presentation">Team &#8222;WILIER-CHAOYANG&#8220; an</span><span dir="ltr" role="presentation">kommen und viele </span><span dir="ltr" role="presentation">gemeinsame Erfolge mit dem </span><br role="presentation" /><span dir="ltr" role="presentation">Team.</span></li>
-                <li><span dir="ltr" role="presentation">Ge</span><span dir="ltr" role="presentation">s</span><span dir="ltr" role="presentation">amts</span><span dir="ltr" role="presentation">ie</span><span dir="ltr" role="presentation">g der Mo</span><span dir="ltr" role="presentation">untainbike</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Challenge (ehemalige Ritchey</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Challenge)</span></li>
-                <li><span dir="ltr" role="presentation">Sieg Bayerische Meisterschaft XCM</span></li>
-                <li><span dir="ltr" role="presentation">Siege lokalen </span><span dir="ltr" role="presentation">M</span><span dir="ltr" role="presentation">TB</span><span dir="ltr" role="presentation">&#8211;</span><span dir="ltr" role="presentation">Renn</span><span dir="ltr" role="presentation">en</span></li>
-                </ul>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Weismantel Ende -->
-
-
-        <!-- MODAL Metschberger -->
-        <div class="modal fade" id="modalMetschberger" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Markus Metschberger</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/metschberger.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/markus__metschberger/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>39, Ingenieur</p>
-                <p><strong>Wohnort: </strong>Aiglsbach</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li>Deutscher Hochschulmeister MTB (Overall)</li>
-                <li>MTB Bundesliga Deutschland,mehrfach Top 15</li>
-                <li>MTB Bundesliga Österreich,mehrfach Top 15</li>
-                <li>Top 20 Straßenbundesliga</li>
-                </ul>
-                <p><strong>Top Erfolge (2022):</strong></p>
-                <ul>
-                <li>3. Platz Kronplatzprince, Masters</li>
-                <li>4. Platz Mytos Dolomiti, Masters</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Wieder vorne mitfahren und für das Team <span dir="ltr" role="presentation">&#8222;WILIER-CHAOYANG&#8220;</span> Ergebnisse einfahren. Wieder an die Leistung der letzten Jahre anknüpfen.</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Metschberger Ende -->
-
-
-        <!-- MODAL Pechacek -->
-        <div class="modal fade" id="modalPechacek" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Luca Pechacek</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/pechacek.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/lucapechacek/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <a href="https://www.facebook.com/luca.pechacek/" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>19, Student</p>
-                <p><strong>Wohnort: </strong>Schlierbach</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li>1. Schwarzwald-Bike-Marathon Jugend Cup</li>
-                <li>1. Kemptener Bike-Marathon Kurzstrecke Junioren</li>
-                <li>1. VulkanBike Eifel-Halbmarathon U19</li>
-                <li>3. Dolomiti Super Bike kurze Distanz</li>
-                <li>3. Overall Black Forest Ultra Bike-Marathon Short Track</li>
-                <li>4. Kronplatzking (prince) Marathon overall (1. U23)</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022):</strong></p>
-                <ul>
-                <li>1. Bike Festival Willingen Short Distance</li>
-                <li>1. Geba Kamm Ride</li>
-                <li>1. Iron Bike Race Einsiedeln 50km Lizenz</li>
-                <li>2. Deutsche Hochschulmeisterschaft MTB Marathon</li>
-                <li>2. Rennsteigride Schmiedefeld Marathon Strecke</li>
-                <li>9. Bike the Rock Heubach UCI C2</li>
-                </ul>
-                <p><strong>Ziele 2022: </strong></p>
-                <span dir="ltr" role="presentation">An die erfolgreiche Saison 2022 anknüpfen, die Fahrtechnik weiter verbessern und Spass im Team haben.<strong><br /></strong></p>
-                <p><strong>Homepage/FB/Instagram Link:</strong></span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Pechacek Ende -->
-
-
-        <!-- MODAL Schroedl -->
-        <div class="modal fade" id="modalSchroedl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Andreas Schr&ouml;dl</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/schroedl.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.facebook.com/andi.schrodlmtb/" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>36, Immobilien Kaufmann (Univ.)</p>
-                <p><strong>Wohnort: </strong>Amberg / Weiden i d Opf.<strong><br /></strong></p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li>6. Platz gesamt Ultra Black Forest Kirchzarten</li>
-                <li>1. Ritchey Challenge Achensee</li>
-                <li>1. Ritchey Challenge Angerberg/Wörgl</li>
-                <li>5. Platz gesamt Erzgebirgs Bikemarathon</li>
-                <li>4. Platz gesamt BikeFestival Leogang</li>
-                <li>2. Platz Ritchey Challenge Thurmansbang</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022):</strong></p>
-                <ul>
-                <li>1. Platz Eibenstock Marathon Short Distanz</li>
-                <li>1. Platz Herrieden</li>
-                <li>1. Platz Neustadt Marathon Short Distanz</li>
-                <li>2. Platz Cube-Cup Stammbach</li>
-                <li>3. Platz Rennsteigride Short Distanz</li>
-                <li>4. Platz Cube-Cup Asch</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">XC-Rennen fahren und gewinnen</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Schroedl Ende -->
-
-
-        <!-- MODAL Spahn -->
-        <div class="modal fade" id="modalSpahn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Hannes Spahn</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/spahn.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/spahnhannes/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>25, Heilerziehungspfleger</p>
-                <p><strong>Wohnort: </strong>Hausen bei Schonungen</p>
-                <p><strong>Karriere Highlights: </strong></p>
-                <ul>
-                <li>1. Xterra Europameisterschaft AK 25</li>
-                <li>1. Xterra Europameisterschaft AK 20</li>
-                <li>1. Bike Festival Gardasee Kurzdistanz, Overall</li>
-                <li>1. Ortlerbike Marathon Classic, Overall</li>
-                <li>4. Deutsche Meisterschaft Crossduathlon, Overall</li>
-                <li>4. Deutsche Meisterschaft Crosstriathlon, Overall</li>
-                <li>4. Salzkammergut Trophy 37km</li>
-                <li>5. Bikefestival Willingen Kurzdistanz</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li>1. Ortlerbike Marathon Classic</li>
-                <li>2. Keiler Bike Marathon Kurzdistanz</li>
-                <li>3. Bayerische Meisterschaft Duathlon</li>
-                <li>4. Deutsche Meisterschaft Crossduathlon, Overall</li>
-                <li>4. Deutsche Meisterschaft Crosstriathlon, Overall</li>
-                <li>6. Bikefestival Willingen Kurzdistanz</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Top 10 Platzierungen Bike Marathon und Bike Festivals, Xterra Weltmeisterschaften Top 3 Agegroup <b><br /></b></span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Spahn Ende -->
-
-
-        <!-- MODAL Riedl -->
-        <div class="modal fade" id="modalRiedl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Tobias Riedl</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/riedl.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.instagram.com/rietorides/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>37, Spezialist für Luftfahrtkomponenten</p>
-                <p><strong>Wohnort: </strong>Neuburg an der Donau</p>
-                <p><strong>Karriere Highlights:   </strong></p>
-                <ul>
-                <li>10. Marathon Europameisterschaft Senioren 1</li>
-                <li>Top Ten Platzierungen Cross DM</li>
-                <li>Podiumsplatzierungen bayerische Meisterschaften Cross und Strasse</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li>1. Angerberg Shortdistance</li>
-                <li>2. Vehringendorf Shortdistance</li>
-                <li>6. Albstadt Bikemarathon Shortdistance</li>
-                <li>10. Kitzalpbike Shortdistance</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">Gesund bleiben um weiterhin gute Ergebnisse einfahren zu können. Schöne Rides mit den Teamkollegen.<strong><br /></strong></span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Riedl Ende -->
-
-
-        <!-- MODAL Fehr -->
-        <div class="modal fade" id="modalFehr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Max Fehr</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/fehr.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://instagram.com/mxfhr_on_bike/" target="_blank" class="link">
-                  <img src="img/insta.webp" alt="Instagram Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;"> Instagram</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf: </strong>27, SAP Senior Analyst<strong><br /></strong></p>
-                <p><strong>Wohnort: </strong>Würzburg</p>
-                <div><strong>Karriere Highlights: </strong></div>
-                <ul>
-                <li>1. Keiler Bike Marathon Wombach, Kurzdistanz</li>
-                <li>1. Maintal Bike Marathon Kurzdistanz</li>
-                <li>5. Montafon M3 Kurzdistanz</li>
-                <li>10. Bikefestival Gardasee Ronda Piccola</li>
-                <li>22. UCI Mitas 4 Island Stage Race 270km Man</li>
-                <li>31. Deutsche Meisterschaft XCO</li>
-                </ul>
-                <p><strong>Top Erfolge Overall (2022): </strong></p>
-                <ul>
-                <li>3. Frankencup Rappershausen</li>
-                <li>6. Bayernliga Waldaschaff</li>
-                <li>7. Ortler Marathon Classic</li>
-                <li>8. Salzkammergut Trophy F</li>
-                <li>8. Maintal Marathon Kurzdistanz</li>
-                </ul>
-                <p><strong>Ziele 2023: </strong></p>
-                <span dir="ltr" role="presentation">An die guten Ergebnisse der letzten Saison anknüpfen und weiter verbessern. Eine gute Zeit mit dem Teamkameraden haben.</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Fehr Ende -->
-
-
-        <!-- MODAL Ullmann -->
-        <div class="modal fade" id="modalUllmann" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Tobias Ullmann</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/ullmann.webp" alt="" class="img-fluid rounded"><br><br>
-                <a href="https://www.facebook.com/tobias.ullmann.1" target="_blank" class="link">
-                  <img src="img/fb.webp" alt="Facebook Icon" width="30" height="30">
-                  <span style="text-decoration:none; color:inherit;">Facebook</span>
-                </a>
-                <br><br>
-                <p><strong>Alter, Beruf:</strong> 43, Inhaber der Fahrrad-Werkstatt Hilpoltstein und TU-Sports, Teamchef des Teams WILIER-CHAOYANG</p>
-                <p><strong>Wohnort:</strong> Kronmühle</p>
-                <p><strong>Erfolge: </strong></p>
-                <span dir="ltr" role="presentation">Teilnahme an den meisten europäischen UCI-Mountainbike Crosscountry Weltcuprennen , Teilnahme an UEC-Europacuprennen, mehrere Jahre UCI-Weltranglistenpunkte, Teilnahme an Deutschlandcup Cross, Deutsche Meisterschaft Cross und Bundesliga/Deutsche Meisterschaft Mountainbike, Zahlreiche Siege bei Mountainbike Wettbewerben und Festivals. 2021/2022 Siege und Podestplatzierungen bei zahlreichen Marathon-Klassikern in der Masterskategorie.</span></p>
-                <p>Mehre Jahre Mitglied vom UCI Tradeteams.</p>
-                <p><strong>Persönliche Zielsetzung: </strong></p>
-                <span dir="ltr" role="presentation">Den Mountainbikerennsport fördern, den Rennfahrern ein professionelles Umfeld geben und junge Talente an den Wettkampfbetrieb heranführen. Selbst auch Spass am Biken haben und ein paar gute Rennen fahren.</span></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Ullmann Ende -->
-
-
-        <!-- MODAL Felleiter -->
-        <div class="modal fade" id="modalFelleiter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Wolfgang Felleiter</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/felleiter.webp" alt="" class="img-fluid rounded"><br><br>
-                <p><strong>Alter, Beruf: </strong>53, Werkstattleiter Bikeshop<strong><br /></strong></p>
-                <p><strong>Wohnort: </strong>Eckersmühlen<strong><br /></strong></p>
-                <p><strong>Zielsetzung: </strong>Das Team mit Freude und erfolgreich unterstützen<strong><br /></strong></p>
-                <p><strong>Hobbys: </strong>Radfahren<strong><br /></strong></p>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Felleiter Ende -->
-
-
-        <!-- MODAL Koenig -->
-        <div class="modal fade" id="modalKoenig" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Herbert K&ouml;nig</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/koenig.webp" alt="" class="img-fluid rounded"><br><br>
-                <p><strong>Alter, Beruf:</strong> 61, Dipl.-Ing (FH)<strong><br /></strong></p>
-                <p><strong>Wohnort: </strong>Eckersmühlen</p>
-                <p><strong>Zielsetzung: </strong>Das Team und den Shop bestmöglich unterstützen und Spass dabei haben.</p>
-                <p><strong>Hobbys:</strong></p>
-                <ul>
-                <li>Radfahren und alles rund ums Fahrrad</li>
-                <li>Arbeiten mit Holz</li>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Koenig Ende -->
-
-
-        <!-- MODAL Spiegel -->
-        <div class="modal fade" id="modalSpiegel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Walter Spiegel</h1>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" data-bs-touch="true" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="img/spiegel.webp" alt="" class="img-fluid rounded"><br><br>
-                <p><strong>Alter, Beruf: </strong>48, Vertriebsingenieur<strong><br /></strong></p>
-                <p><strong>Wohnort:</strong> Weissenburg</p>
-                <p><strong>Zielsetzung: </strong>Mit Spass zum Erfolg<strong><br /></strong></p>
-                <p><strong>Hobbys:</strong></p>
-                <ul>
-                <li>MTBiken</li>
-                <li>Skifahren</li>
-                <li>Skitouren gehen</li>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Zur&uuml;ck</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- MODAL Spiegel Ende -->
-      
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="container pt-5">
-    <hr>
-  </div>
-
-  <div class="container my-5" id="contact">
-    <div class="row">
-      <div class="col-md-6 col-6 mt-4 align-self-end">
-        <h3 class="fw-bold">Kontakt</h3>
-        <p class="fw-bold mt-4">Tobias Ullmann
-          <br>
-          Johann-Friedrich-Strasse 3
-          <br>
-          91161 Hilpoltstein
-          <br>
-          <a href="mailto:tobi@tu-sports.de">tobi@tu-sports.de</a>
-        </p>
-        </p>
-      </div>
-    </div>
-  </div>
-
-<!--
-  <section style="background-color: black" class="pt-5">
-    <div class="container">
+    <div class="container my-5" id="contact">
       <div class="row">
-        <div class="col-12 text-center">
-          <h1 class="fw-bold" style="color:f2f2f2;">Galerie</h1>
+        <div class="col-md-6 col-6 mt-4 align-self-end">
+          <h3 class="fw-bold">Kontakt</h3>
+          <p class="fw-bold mt-4">Tobias Ullmann
+            <br>
+            Johann-Friedrich-Strasse 3
+            <br>
+            91161 Hilpoltstein
+            <br>
+            <a href="mailto:tobi@tu-sports.de">tobi@tu-sports.de</a>
+          </p>
         </div>
       </div>
-      <section id="photos" class="py-3">
-        <img src="img/slider1.webp">
-        <img src="img/slider4.webp">
-        <img src="img/slider3.webp">
-        <img src="img/slider2.webp">
-        <img src="img/slider5.webp">
-        <img src="img/slider6.webp">
-        <img src="img/slider7.webp">
-        <img src="img/slider8.webp">
-        <img src="img/slider9.webp">
-        <img src="img/slider10.webp">
-        <img src="img/slider11.webp">
-        <img src="img/slider12.webp">
-        <img src="img/slider13.webp">
-        <img src="img/slider14.webp">
-        <img src="img/slider15.webp">
-        <img src="img/slider16.webp">
-        <img src="img/slider17.webp">
-      </section>
     </div>
-  </section>
--->
 
-  <script src="js/bootstrap.bundle.min.js"></script>
- 
-</main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </main>
+
+</body>
 
 </html>
